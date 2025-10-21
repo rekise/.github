@@ -1,0 +1,23 @@
+## Dependencies?
+<!-- If there’s any other PR that should be merged before yours. -->
+
+## What?
+<!-- Briefly describe what changes you made. -->
+
+## Why?
+<!-- Explain why these changes were made and what problem they solve. -->
+
+## How?
+<!-- (Optional) Summarize how you implemented them or major design decisions. -->
+
+## Testing?
+<!-- Describe how you tested this: steps, test cases, results. -->
+
+## Screenshots / Demo (optional)
+<!-- Include before/after screenshots or short demo GIFs if applicable. -->
+
+## Checklist
+<!-- Include system-specific checklists (e.g., software, firmware, hardware, mechanical, or mission configs) to ensure all critical robotics components are reviewed before merging.-->
+
+## Additional Notes / Open Questions
+<!-- Limitations, follow-ups, or questions for reviewers. -->
