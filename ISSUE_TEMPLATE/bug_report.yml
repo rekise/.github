@@ -1,0 +1,91 @@
+name: Bug report
+description: Create a report to help us improve
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Description
+      description: A clear and concise description of what the bug is.
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: To Reproduce
+      description: Steps to reproduce the behavior
+      placeholder: |
+        1. Launch commands ...
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: A clear and concise description of what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain your problem.
+  - type: dropdown
+    id: desktop
+    attributes:
+      label: Desktop Platform
+      description: What desktop OS are you using?
+      options:
+        - Ubuntu 22.04.5 LTS
+        - Ubuntu 20.04 LTS
+        - Ubuntu 18.04 LTS
+        - Windows 10
+        - Windows 11
+        - macOS
+        - Other (please specify in additional context)
+    validations:
+      required: true
+  - type: input
+    id: docker
+    attributes:
+      label: Docker Image
+      description: If using Docker, specify the image name and tag
+      placeholder: "e.g., ros:noetic, osrf/ros:melodic-desktop"
+  - type: textarea
+    id: hardware
+    attributes:
+      label: Hardware tested on
+      description: Specify the hardware platform where the issue was observed
+      placeholder: "e.g., Intel NUC, Raspberry Pi 4, NVIDIA Jetson Nano"
+  - type: textarea
+    id: repository
+    attributes:
+      label: Repository
+      description: Repository/branch details on which issue was observed
+      placeholder: "e.g., main branch, commit hash: abc123"
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Please provide relevant logs
+      placeholder: |
+        - rosbag file: 
+        - backtrace/console log:
+        - kernel log:
+      render: shell
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add any other context about the problem here.
