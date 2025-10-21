@@ -8,9 +8,8 @@ This repository serves as the organization-wide configuration for all repositori
 
 This repository provides standardized issue templates that are automatically available across all repositories in the organization:
 
-- **🐛 Bug Report** (`ISSUE_TEMPLATE/bug_report.yml`) - Structured form for reporting bugs with robotics-specific fields
-- **Bug Report (Markdown)** (`ISSUE_TEMPLATE/bug_report.md`) - Alternative markdown format
-- **Template Configuration** (`ISSUE_TEMPLATE/config.yml`) - Controls template behavior
+- **Bug Report (Markdown)** (`ISSUE_TEMPLATE/bug_report.md`) - Bug report template
+
 
 ### Pull Request Template
 
