@@ -1,9 +1,20 @@
-# .github
-Repository to serve as organization-wide defaults for all repositories
+# rekise Organization Configuration
 
-## Pull Request Template
+This repository serves as the organization-wide configuration for all repositories in the `rekise` organization.
 
-This repository contains a pull request template ([PULL_REQUEST_TEMPLATE.md](PULL_REQUEST_TEMPLATE.md)) that will be automatically applied to all pull requests across the organization's repositories.
+## Organization-Wide Templates
+
+### Issue Templates
+
+This repository provides standardized issue templates that are automatically available across all repositories in the organization:
+
+- **🐛 Bug Report** (`ISSUE_TEMPLATE/bug_report.yml`) - Structured form for reporting bugs with robotics-specific fields
+- **Bug Report (Markdown)** (`ISSUE_TEMPLATE/bug_report.md`) - Alternative markdown format
+- **Template Configuration** (`ISSUE_TEMPLATE/config.yml`) - Controls template behavior
+
+### Pull Request Template
+
+The pull request template ([PULL_REQUEST_TEMPLATE.md](PULL_REQUEST_TEMPLATE.md)) is automatically applied to all pull requests across the organization's repositories.
 
 The template helps ensure consistent and comprehensive pull request descriptions by prompting contributors to include:
 
@@ -13,4 +24,8 @@ The template helps ensure consistent and comprehensive pull request descriptions
 - **Related Issues**: Links to related issues or tickets
 - **Screenshots**: Visual documentation when applicable
 - **Checklist**: Verification items before merging
-- **Additional Notes**: Limitations, follow-ups, or questions for reviewers.
+- **Additional Notes**: Limitations, follow-ups, or questions for reviewers
+
+## Usage
+
+These templates are automatically inherited by all repositories in the `rekise` organization. Repository-specific templates will override these organization-wide defaults if present.
