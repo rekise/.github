@@ -29,3 +29,7 @@ The template helps ensure consistent and comprehensive pull request descriptions
 ## Usage
 
 These templates are automatically inherited by all repositories in the `rekise` organization. Repository-specific templates will override these organization-wide defaults if present.
+
+
+## References : 
+- https://github.com/skills/.github
