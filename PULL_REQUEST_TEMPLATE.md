@@ -20,6 +20,10 @@
 
 ## Checklist
 <!-- Include system-specific checklists (e.g., software, firmware, hardware, mechanical, or mission configs) to ensure all critical robotics components are reviewed before merging.-->
+- [ ] Follows [PR creation guide](https://github.com/rekise/robotics-docs/wiki/PR-Creation-guide)
+- [ ] Follows [CPP style guide](https://github.com/rekise/robotics-docs/wiki/CPP--style-guide)
+- [ ] Follows [Formatting guide](https://github.com/rekise/robotics-docs/wiki/formatting-guide)
+- [ ] Other system specific checklists performed on the PR.
 
 ## Additional Notes / Open Questions
 <!-- Limitations, follow-ups, or questions for reviewers. -->
