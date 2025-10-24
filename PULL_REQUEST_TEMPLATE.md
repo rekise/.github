@@ -23,6 +23,7 @@
 - [ ] Follows [PR creation guide](https://github.com/rekise/robotics-docs/wiki/PR-Creation-guide)
 - [ ] Follows [CPP style guide](https://github.com/rekise/robotics-docs/wiki/CPP--style-guide)
 - [ ] Follows [Formatting guide](https://github.com/rekise/robotics-docs/wiki/formatting-guide)
+- [ ] Copilot code reivew
 - [ ] Other system specific checklists performed on the PR.
 
 ## Additional Notes / Open Questions
