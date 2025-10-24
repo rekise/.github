@@ -1,3 +1,5 @@
+<!-- Read PR creation guide : https://github.com/rekise/robotics-docs/wiki/PR-Creation-guide -->
+
 ## Dependencies?
 <!-- If there’s any other PR that should be merged before yours. -->
 
