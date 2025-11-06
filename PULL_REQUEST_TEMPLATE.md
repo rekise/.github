@@ -4,6 +4,7 @@
 <!-- If there’s any other PR that should be merged before yours. -->
 
 ## What?
+Associated GH issue : <>
 <!-- Briefly describe what changes you made. -->
 
 ## Why?
@@ -20,6 +21,7 @@
 
 ## Checklist
 <!-- Include system-specific checklists (e.g., software, firmware, hardware, mechanical, or mission configs) to ensure all critical robotics components are reviewed before merging.-->
+- [ ] Link to assciated GH Issue in What section.
 - [ ] Follows [PR creation guide](https://github.com/rekise/robotics-docs/wiki/PR-Creation-guide)
 - [ ] Follows [CPP style guide](https://github.com/rekise/robotics-docs/wiki/CPP--style-guide)
 - [ ] Follows [Formatting guide](https://github.com/rekise/robotics-docs/wiki/formatting-guide)
