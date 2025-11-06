@@ -4,7 +4,7 @@
 BasedOnStyle: Google
 AccessModifierOffset: -4
 ConstructorInitializerIndentWidth: 2
-AlignEscapedNewlinesLeft: true 
+AlignEscapedNewlinesLeft: true
 AlignTrailingComments: true
 AllowAllParametersOfDeclarationOnNextLine: true
 AllowShortIfStatementsOnASingleLine: false
