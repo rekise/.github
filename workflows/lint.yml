@@ -1,0 +1,31 @@
+name: C++ Format Check
+
+on:
+  workflow_call:
+
+jobs:
+  clang-format:
+    name: Check C++ Formatting
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Install clang-format
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y clang-format-14
+      
+      - name: Download clang-format config
+        run: |
+          curl -o .clang-format \
+            https://raw.githubusercontent.com/rekise/.github/main/.clang-format
+      
+      - name: Check C++ formatting
+        run: |
+          find . -type f \
+            \( -name "*.cpp" -o -name "*.hpp" -o -name "*.h" -o -name "*.cc" -o -name "*.cxx" -o -name "*.c" \) \
+            -not -path "*/build/*" \
+            -not -path "*/install/*" \
+            -not -path "*/log/*" \
+            -print0 | xargs -0 -r clang-format-14 --dry-run --Werror
