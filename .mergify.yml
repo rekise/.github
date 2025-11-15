@@ -1,0 +1,11 @@
+pull_request_rules:
+  - name: Auto rebase PRs targeting main, dev, feat/*, or feature/*
+    conditions:
+      - or:
+          - base=main
+          - base=dev
+          - base~=feat/.*
+          - base~=feature/.*
+      - author!=dependabot
+    actions:
+      rebase:
