@@ -12,17 +12,11 @@ A clear and concise description of the task. Include the approach or mechanism i
 
 ## Requirements
 - Requirement 1
-- Add configurable parameters:
-  - `param_name`: Description of parameter (default: value)
-- When condition is triggered:
-  - Expected behavior 1
-  - Expected behavior 2
-- When condition recovers:
-  - Expected recovery behavior
+- Requirement 2
+- Requirement 3
 
 ## Affected Components
 - `package_name`: `component_name` description
-- `package_name`: `file_name` description
 
 ## Acceptance Criteria
 - [ ] Criteria 1
