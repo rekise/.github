@@ -25,5 +25,5 @@ Related issues or blockers (if any).
 
 ---
 
-> **Before starting work**, assignee must respond with implementation plan and test cases.
-> Use the [Assignee Response Template](https://github.com/rekise/robotics-forum/blob/main/docs/assignee-response-template.md).
+> **Before starting work**, assignee must respond with implementation and test plan.
+> Use the [Response Template](https://github.com/rekise/robotics-forum/blob/main/docs/assignee-response-template.md).
