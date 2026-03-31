@@ -1,0 +1,14 @@
+pull_request_rules:
+  - name: Auto rebase when PR is ready (not draft) and not labeled norebase
+    conditions:
+      - or:
+          - base=main
+          - base=dev
+          - base~=feat/.*
+          - base~=feature/.*
+      - label!=norebase         # skip if explicitly labeled 'norebase'
+      - -draft                  # skip GitHub draft PRs ('-draft' == NOT draft)
+      - "#commits-behind > 0"   # only rebase when the PR is actually behind
+      - author!=dependabot
+    actions:
+      rebase: {}
