@@ -26,17 +26,13 @@ Please include:
 
 PGP / signed email is welcome but not required.
 
-## Response Schedule
+## Response
 
-| Severity | Acknowledgement | Initial Assessment | Patch Target |
-|---|---|---|---|
-| Critical | 1 business day | 3 business days | 14 days |
-| High | 2 business days | 5 business days | 30 days |
-| Medium / Low | 5 business days | 10 business days | Next minor release |
-
-Severity is determined by Rekise Marine in consultation with the
-reporter. We use the [CVSS v3.1](https://www.first.org/cvss/) scoring
-convention as a baseline.
+Expect a timely acknowledgement of your report, normally within five
+business days, during which time Rekise Marine will triage the
+vulnerability and engage the appropriate maintainers. Severity is
+assessed using [CVSS v3.1](https://www.first.org/cvss/); fix timelines
+are communicated with the reporter once triage is complete.
 
 ## Disclosure Policy
 
