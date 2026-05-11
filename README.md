@@ -25,6 +25,17 @@ The template helps ensure consistent and comprehensive pull request descriptions
 - **Checklist**: Verification items before merging
 - **Additional Notes**: Limitations, follow-ups, or questions for reviewers
 
+## Organization-Wide Security Policy
+
+[SECURITY.md](SECURITY.md) defines Rekise Marine's vulnerability
+disclosure process. GitHub auto-applies it as the default policy for
+every repository in the `rekise` organization that does not define its
+own `SECURITY.md`, and surfaces it via each repository's "Security" tab.
+
+This is the single public source for external researchers, partners,
+and customers to report security issues — including issues found in
+private Rekise repositories.
+
 ## Usage
 
 These templates are automatically inherited by all repositories in the `rekise` organization. Repository-specific templates will override these organization-wide defaults if present.
